@@ -1,0 +1,88 @@
+body {
+  background-color: #131313;
+  display: flex;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.nav {
+  width: 95%;
+}
+
+.search-box {
+  display: flex;
+  align-items: top;
+  background-color: #22242b;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0px 10px 150px;
+  justify-content: center;
+  height: 40px;
+  width: 1200px;
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-box input::placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-box i {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin: 10px 20px 5px 10px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: #131313;
+  height: 100vh;
+  padding: 10px;
+  text-align: left;
+  margin: 0px 0px 0px 5px;
+  width: 5%;
+}
+
+.sidebar .logo img {
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.Image {
+  width: 20px;
+}
+
+.sidebar ul li {
+  margin: 40px 0px 0px 15px;
+}
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.card-flex {
+  margin-left: 100px;
+  display: flex;
+}
+.card :hover {
+  transform: scale(1.4, 1.4);
+  transition-delay: 0.1s;
+}
+.card img {
+  height: 240px;
+  border-radius: 10px;
+  width: 173px;
+  margin: 10px;
+  border-radius: 2%;
+}
